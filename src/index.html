@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="p-4 flex flex-col gap-16">
-    <header class="flex justify-between items-center grow shrink w-full h-auto xsm:flex-col-reverse">
+    <header
+      class="flex justify-between items-center grow shrink w-full h-auto xsm:flex-col-reverse"
+    >
       <section class="grow flex flex-col gap-4 shrink">
         <div>
           <h1 class="font-semibold text-4xl">
@@ -80,8 +82,8 @@
         </figure>
       </div>
     </header>
-    <main class="grid grid-cols-5 grid-flow-col-dense min-h-screen w-full grow">
-      <div class="col-span-3 border-2">
+    <main class="grid grid-cols-5 grid-flow-col-dense min-h-screen w-full grow gap-8 " >
+      <div class="col-span-3 border-2 flex flex-col justify-between gap-16">
         <article id="certificates" class="">
           <h2 class="text-4xl">CERTIFICATES</h2>
           <hr class="border-orange-400 border-2" />
@@ -158,11 +160,11 @@
           </div>
         </article>
       </div>
-      <div class="col-span-2 border-2">
+      <div class="col-span-2 border-2 flex flex-col justify-between ">
         <article>
           <h2 class="text-4xl">MY LIFE PHILOSOPHY</h2>
           <hr class="border-orange-400 border-2" />
-          <p>
+          <p class="text-xl">
             <q>Something smart or heartfelt, preferably in one sentence.</q>
           </p>
         </article>
@@ -222,50 +224,61 @@
           <hr class="border-orange-400 border-2" />
           <table>
             <tr>
-              <th scope="colgroup">TAMIL</th>
+              <th scope="colgroup" class="text-left">TAMIL</th>
               <td class="flex gap-4">
                 <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900">
-
-                  </div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
               </td>
             </tr>
             <tr>
-              <th scope="colgroup">ENGLISH</th>
+              <th scope="colgroup" class="text-left">ENGLISH</th>
               <td class="flex gap-4">
                 <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900">
-
-                  </div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
-                
-              </td>
-            </tr>
-            <tr>
-              <th scope="colgroup">HINDI</th>
-              <td class="flex gap-4">
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900">
-                    
-
-                  </div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900 relative overflow-hidden">
-                    <div class="rounded-tr-[50%] rounded-br-[50%] w-[10px] h-[20px] absolute top-0 right-0 bg-gray-500"></div>
-                  </div>
-                  <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
                 <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
-
-              
-              
+              </td>
+            </tr>
+            <tr>
+              <th scope="colgroup" class="text-left">HINDI</th>
+              <td class="flex gap-4">
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                <div
+                  class="rounded-[50%] w-[20px] h-[20px] bg-red-900 relative overflow-hidden"
+                >
+                  <div
+                    class="rounded-tr-[50%] rounded-br-[50%] w-[10px] h-[20px] absolute top-0 right-0 bg-gray-500"
+                  ></div>
+                </div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
               </td>
             </tr>
           </table>
+        </article>
+        <article>
+          <h2 class="text-4xl">EDUCATION</h2>
+          <hr class="border-orange-400 border-2" />
+
+          <div>
+            <h2><b>B.SC in MATHEMATICS</b></h2>
+            <p class="text-red-900">
+              <i>Government arts college , coimbatore.</i>
+            </p>
+            <small
+              ><i class="fa-regular fa-calendar"></i> july 2019 - august
+              2022</small
+            >
+            <p>
+              <b>Project title:</b> Real life applications of eigen values and
+              eigen vectors
+            </p>
+          </div>
         </article>
       </div>
     </main>
@@ -278,3 +291,5 @@
     <script src="./app.js"></script>
   </body>
 </html>
+
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
