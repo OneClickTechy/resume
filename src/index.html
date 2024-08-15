@@ -1,14 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <details class="bg-zinc-900">
-        <summary>check this is what</summary>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsam exercitationem ab veniam, consequatur fugit laborum optio sit accusantium mollitia alias. Nisi harum nihil reprehenderit reiciendis velit deleniti quisquam quaerat.</p>
-    </details>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="p-4 flex flex-col gap-16">
+    <header class="flex justify-between items-center grow shrink w-full h-auto xsm:flex-col-reverse">
+      <section class="grow flex flex-col gap-4 shrink">
+        <div>
+          <h1 class="font-semibold text-4xl">
+            <span class="text-green-400">Mr</span>.
+            <span class="text-green-400">J</span>EYA<span class="text-green-400"
+              >P</span
+            >ANDI R
+          </h1>
+          <h2 class="text-2xl text-red-900">Frontend developer</h2>
+        </div>
+        <div>
+          <ul class="flex flex-wrap grow shrink gap-16">
+            <li>
+              <a href="mailto:jeyapandimathsgac@gmail.com"
+                ><i class="text-red-900 fa-solid fa-at"></i>
+                jeyapandimathsgac@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+918098117298"
+                ><i class="text-red-900 fa-solid fa-phone"></i> +91
+                8098117298</a
+              >
+            </li>
+            <li>
+              <address>
+                <i class="text-red-900 fa-solid fa-envelope"></i> Old tvs road,
+                theni-625531.
+              </address>
+            </li>
+            <li>
+              <address>
+                <i class="text-red-900 fa-solid fa-location-dot"></i> Tamilnadu,
+                India.
+              </address>
+            </li>
+            <li>
+              <a href="https://github.com/oneClickTechy/" target="_blank"
+                ><i class="text-red-900 fa-brands fa-github"></i>
+                OneClickTechy</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jeyapandi-r-981684315/"
+                target="_blank"
+                ><i class="text-red-900 fa-brands fa-linkedin"></i>
+                jeyapandi-r-981684315</a
+              >
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><i class="text-red-900 fa-solid fa-globe"></i> Coming soon</a
+              >
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><i class="text-red-900 fa-brands fa-x-twitter"></i> Coming
+                soon</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div>
+        <figure class="rounded-custom h-[150px] w-[150px] bg-teal-600">
+          <figcaption class="text-white text-center">
+            &blacklozenge; Open to work
+          </figcaption>
+        </figure>
+      </div>
+    </header>
+    <main class="grid grid-cols-5 grid-flow-col-dense min-h-screen w-full grow">
+      <div class="col-span-3 border-2">
+        <article id="certificates" class="">
+          <h2 class="text-4xl">CERTIFICATES</h2>
+          <hr class="border-orange-400 border-2" />
+          <figure>
+            <img
+              src="./assets/certificate.png"
+              alt="certificate"
+              title="certificate"
+            />
+            <div class="text-center">
+              <a
+                href="https://freecodecamp.org/certification/jeyapandi_r/responsive-web-design
+
+                        "
+                class="py-2 px-4 bg-orange-400 text-white"
+              >
+                Click to View
+              </a>
+            </div>
+          </figure>
+        </article>
+        <article>
+          <h2 class="text-4xl">PROJECTS</h2>
+          <hr class="border-orange-400 border-2" />
+          <div class="grid grid-cols-2 grid-flow-row-dense gap-2">
+            <figure class="relative">
+              <a
+                href="https://oneclicktechy.github.io/ageCalculator/"
+                target="_blank"
+                ><img
+                  src="./assets/age_calculator.png"
+                  height="300"
+                  width="500"
+                  alt=""
+              /></a>
+              <figcaption class="absolute top-0 block bg-white/75">
+                age calculator
+              </figcaption>
+            </figure>
+            <figure class="relative">
+              <a href="https://oneclicktechy.github.io/toDo/"
+                ><img src="./assets/todo.png" height="300" width="500" alt=""
+              /></a>
+              <figcaption class="absolute top-0 block bg-white/75">
+                ToDo List Maker
+              </figcaption>
+            </figure>
+            <figure class="relative">
+              <a
+                href="https://oneclicktechy.github.io/Calculator/"
+                target="_blank"
+                ><img src="./assets/calculator.png" alt=""
+              /></a>
+              <figcaption class="absolute top-0 block bg-white/75">
+                Calculator
+              </figcaption>
+            </figure>
+
+            <figure class="relative">
+              <a href="https://oneclicktechy.github.io/SURVEY-FORM/"
+                ><img src="./assets/form.png" alt=""
+              /></a>
+              <figcaption class="absolute top-0 block bg-white/75">
+                Survey Form
+              </figcaption>
+            </figure>
+          </div>
+        </article>
+        <article>
+          <h2 class="text-4xl">A Day of My Life</h2>
+          <hr class="border-orange-400 border-2" />
+          <div>
+            <canvas id="myChart" style="width: 100%; max-width: 700px"></canvas>
+          </div>
+        </article>
+      </div>
+      <div class="col-span-2 border-2">
+        <article>
+          <h2 class="text-4xl">MY LIFE PHILOSOPHY</h2>
+          <hr class="border-orange-400 border-2" />
+          <p>
+            <q>Something smart or heartfelt, preferably in one sentence.</q>
+          </p>
+        </article>
+        <article>
+          <h2 class="text-4xl">MOST PROUD OF</h2>
+          <hr class="border-orange-400 border-2" />
+          <div class="flex gap-2">
+            <div class="flex justify-center items-center">
+              <i
+                class="text-4xl text-red-900 text-center fa-solid fa-trophy"
+              ></i>
+            </div>
+            <div>
+              <p class="text-2xl font-normal">NCC Airwing</p>
+              <small class="text-base">C certificate holder</small>
+            </div>
+          </div>
+        </article>
+        <article>
+          <h2 class="text-4xl">STRENGTHS</h2>
+          <hr class="border-orange-400 border-2" />
+          <div>
+            <p class="text-wrap leading-8">
+              <span class="text-nowrap border-2 border-gray-500/75 rounded-xl"
+                >Analytical Think</span
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="text-nowrap border-2 border-gray-500/75 rounded-xl"
+                >Self-learning</span
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="text-nowrap border-2 border-gray-500/75 rounded-xl"
+                >Curiasity & Creativity</span
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="text-nowrap border-2 border-gray-500/75 rounded-xl"
+                >Technical Proficiency</span
+              >&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+          </div>
+        </article>
+        <article>
+          <h2 class="text-4xl">SKILLS</h2>
+          <hr class="border-orange-400 border-2" />
+          <ul>
+            <li><i class="fa-brands fa-html5"></i> HTML</li>
+            <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+            <li><i class="fa-brands fa-js"></i> JAVASCRIPT</li>
+            <li class="flex justify-start items-center">
+              <img
+                src="./assets/adobe-photoshop-logo.png"
+                class="w-[15px] h-[15px]"
+                alt=""
+              />PHOTOSHOP
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h2 class="text-4xl">LANGUAGES</h2>
+          <hr class="border-orange-400 border-2" />
+          <table>
+            <tr>
+              <th scope="colgroup">TAMIL</th>
+              <td class="flex gap-4">
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900">
+
+                  </div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                
+              </td>
+            </tr>
+            <tr>
+              <th scope="colgroup">ENGLISH</th>
+              <td class="flex gap-4">
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900">
+
+                  </div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
+                
+              </td>
+            </tr>
+            <tr>
+              <th scope="colgroup">HINDI</th>
+              <td class="flex gap-4">
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900">
+                    
+
+                  </div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900 relative overflow-hidden">
+                    <div class="rounded-tr-[50%] rounded-br-[50%] w-[10px] h-[20px] absolute top-0 right-0 bg-gray-500"></div>
+                  </div>
+                  <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
+                <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
+
+              
+              
+              </td>
+            </tr>
+          </table>
+        </article>
+      </div>
+    </main>
+    <!-- script files -->
+    <script
+      src="https://kit.fontawesome.com/64224c8a23.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="./app.js"></script>
+  </body>
 </html>
