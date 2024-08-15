@@ -4,101 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body class="p-4 flex flex-col gap-16">
-    <header
-      class="flex justify-between items-center grow shrink w-full h-auto xsm:flex-col-reverse"
-    >
-      <section class="grow flex flex-col gap-4 shrink">
+  <body class="container py-4">
+    <header class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <section>
         <div>
-          <h1 class="font-semibold text-4xl">
-            <span class="text-green-400">Mr</span>.
-            <span class="text-green-400">J</span>EYA<span class="text-green-400"
-              >P</span
-            >ANDI R
+          <h1 class="fw-semibold display-4">
+            <span class="text-success">Mr</span>.
+            <span class="text-success">J</span>EYA<span class="text-success">P</span>ANDI R
           </h1>
-          <h2 class="text-2xl text-red-900">Frontend developer</h2>
+          <h2 class="fs-2 text-danger">Frontend Developer</h2>
         </div>
         <div>
-          <ul class="flex flex-wrap grow shrink gap-16">
+          <ul class="list-unstyled d-flex flex-wrap gap-3">
             <li>
-              <a href="mailto:jeyapandimathsgac@gmail.com"
-                ><i class="text-red-900 fa-solid fa-at"></i>
-                jeyapandimathsgac@gmail.com</a
+              <a href="mailto:jeyapandimathsgac@gmail.com" class="text-danger"
+                ><i class="fa-solid fa-at"></i> jeyapandimathsgac@gmail.com</a
               >
             </li>
             <li>
-              <a href="tel:+918098117298"
-                ><i class="text-red-900 fa-solid fa-phone"></i> +91
-                8098117298</a
+              <a href="tel:+918098117298" class="text-danger"
+                ><i class="fa-solid fa-phone"></i> +91 8098117298</a
               >
             </li>
             <li>
               <address>
-                <i class="text-red-900 fa-solid fa-envelope"></i> Old tvs road,
-                theni-625531.
+                <i class="text-danger fa-solid fa-envelope"></i> Old TVs Road,
+                Theni-625531.
               </address>
             </li>
             <li>
               <address>
-                <i class="text-red-900 fa-solid fa-location-dot"></i> Tamilnadu,
+                <i class="text-danger fa-solid fa-location-dot"></i> Tamilnadu,
                 India.
               </address>
             </li>
             <li>
-              <a href="https://github.com/oneClickTechy/" target="_blank"
-                ><i class="text-red-900 fa-brands fa-github"></i>
-                OneClickTechy</a
+              <a href="https://github.com/oneClickTechy/" class="text-danger" target="_blank"
+                ><i class="fa-brands fa-github"></i> OneClickTechy</a
               >
             </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/jeyapandi-r-981684315/"
+                class="text-danger"
                 target="_blank"
-                ><i class="text-red-900 fa-brands fa-linkedin"></i>
-                jeyapandi-r-981684315</a
+                ><i class="fa-brands fa-linkedin"></i> jeyapandi-r-981684315</a
               >
             </li>
             <li>
-              <a href="#" target="_blank"
-                ><i class="text-red-900 fa-solid fa-globe"></i> Coming soon</a
+              <a href="#" class="text-danger" target="_blank"
+                ><i class="fa-solid fa-globe"></i> Coming Soon</a
               >
             </li>
             <li>
-              <a href="#" target="_blank"
-                ><i class="text-red-900 fa-brands fa-x-twitter"></i> Coming
-                soon</a
+              <a href="#" class="text-danger" target="_blank"
+                ><i class="fa-brands fa-x-twitter"></i> Coming Soon</a
               >
             </li>
           </ul>
         </div>
       </section>
-      <div>
-        <figure class="rounded-custom h-[150px] w-[150px] bg-teal-600">
-          <figcaption class="text-white text-center">
-            &blacklozenge; Open to work
-          </figcaption>
+      <div class="mt-4 mt-md-0">
+        <figure class="rounded bg-info d-flex justify-content-center align-items-center" style="height: 150px; width: 150px;">
+          <figcaption class="text-white text-center">◆ Open to Work</figcaption>
         </figure>
       </div>
     </header>
-    <main class="grid grid-cols-5 grid-flow-col-dense min-h-screen w-full grow gap-8 " >
-      <div class="col-span-3 border-2 flex flex-col justify-between gap-16">
-        <article id="certificates" class="">
-          <h2 class="text-4xl">CERTIFICATES</h2>
-          <hr class="border-orange-400 border-2" />
-          <figure>
+    <main class="row my-4">
+      <div class="col-md-8 d-flex flex-column gap-4">
+        <article id="certificates">
+          <h2 class="display-5">CERTIFICATES</h2>
+          <hr class="border border-warning" />
+          <figure class="text-center">
             <img
               src="./assets/certificate.png"
               alt="certificate"
               title="certificate"
+              class="img-fluid"
             />
-            <div class="text-center">
+            <div>
               <a
-                href="https://freecodecamp.org/certification/jeyapandi_r/responsive-web-design
-
-                        "
-                class="py-2 px-4 bg-orange-400 text-white"
+                href="https://freecodecamp.org/certification/jeyapandi_r/responsive-web-design"
+                class="btn btn-warning text-white mt-2"
               >
                 Click to View
               </a>
@@ -106,177 +98,176 @@
           </figure>
         </article>
         <article>
-          <h2 class="text-4xl">PROJECTS</h2>
-          <hr class="border-orange-400 border-2" />
-          <div class="grid grid-cols-2 grid-flow-row-dense gap-2">
-            <figure class="relative">
-              <a
-                href="https://oneclicktechy.github.io/ageCalculator/"
-                target="_blank"
-                ><img
-                  src="./assets/age_calculator.png"
-                  height="300"
-                  width="500"
-                  alt=""
-              /></a>
-              <figcaption class="absolute top-0 block bg-white/75">
-                age calculator
-              </figcaption>
-            </figure>
-            <figure class="relative">
-              <a href="https://oneclicktechy.github.io/toDo/"
-                ><img src="./assets/todo.png" height="300" width="500" alt=""
-              /></a>
-              <figcaption class="absolute top-0 block bg-white/75">
-                ToDo List Maker
-              </figcaption>
-            </figure>
-            <figure class="relative">
-              <a
-                href="https://oneclicktechy.github.io/Calculator/"
-                target="_blank"
-                ><img src="./assets/calculator.png" alt=""
-              /></a>
-              <figcaption class="absolute top-0 block bg-white/75">
-                Calculator
-              </figcaption>
-            </figure>
-
-            <figure class="relative">
-              <a href="https://oneclicktechy.github.io/SURVEY-FORM/"
-                ><img src="./assets/form.png" alt=""
-              /></a>
-              <figcaption class="absolute top-0 block bg-white/75">
-                Survey Form
-              </figcaption>
-            </figure>
+          <h2 class="display-5">PROJECTS</h2>
+          <hr class="border border-warning" />
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <figure class="position-relative">
+                <a
+                  href="https://oneclicktechy.github.io/ageCalculator/"
+                  target="_blank"
+                  ><img
+                    src="./assets/age_calculator.png"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <figcaption class="position-absolute top-0 bg-light bg-opacity-75 p-1">
+                  Age Calculator
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="position-relative">
+                <a href="https://oneclicktechy.github.io/toDo/"
+                  ><img
+                    src="./assets/todo.png"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <figcaption class="position-absolute top-0 bg-light bg-opacity-75 p-1">
+                  ToDo List Maker
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="position-relative">
+                <a
+                  href="https://oneclicktechy.github.io/Calculator/"
+                  target="_blank"
+                  ><img
+                    src="./assets/calculator.png"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <figcaption class="position-absolute top-0 bg-light bg-opacity-75 p-1">
+                  Calculator
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="position-relative">
+                <a href="https://oneclicktechy.github.io/SURVEY-FORM/"
+                  ><img
+                    src="./assets/form.png"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <figcaption class="position-absolute top-0 bg-light bg-opacity-75 p-1">
+                  Survey Form
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </article>
         <article>
-          <h2 class="text-4xl">A Day of My Life</h2>
-          <hr class="border-orange-400 border-2" />
+          <h2 class="display-5">A Day of My Life</h2>
+          <hr class="border border-warning" />
           <div>
             <canvas id="myChart" style="width: 100%; max-width: 700px"></canvas>
           </div>
         </article>
       </div>
-      <div class="col-span-2 border-2 flex flex-col justify-between ">
+      <div class="col-md-4 d-flex flex-column gap-4">
         <article>
-          <h2 class="text-4xl">MY LIFE PHILOSOPHY</h2>
-          <hr class="border-orange-400 border-2" />
-          <p class="text-xl">
+          <h2 class="display-5">MY LIFE PHILOSOPHY</h2>
+          <hr class="border border-warning" />
+          <p class="fs-5">
             <q>Something smart or heartfelt, preferably in one sentence.</q>
           </p>
         </article>
         <article>
-          <h2 class="text-4xl">MOST PROUD OF</h2>
-          <hr class="border-orange-400 border-2" />
-          <div class="flex gap-2">
-            <div class="flex justify-center items-center">
-              <i
-                class="text-4xl text-red-900 text-center fa-solid fa-trophy"
-              ></i>
-            </div>
+          <h2 class="display-5">MOST PROUD OF</h2>
+          <hr class="border border-warning" />
+          <div class="d-flex align-items-center gap-2">
+            <i class="fa-solid fa-trophy text-danger display-4"></i>
             <div>
-              <p class="text-2xl font-normal">NCC Airwing</p>
-              <small class="text-base">C certificate holder</small>
+              <p class="fs-3">NCC Airwing</p>
+              <small>C Certificate Holder</small>
             </div>
           </div>
         </article>
         <article>
-          <h2 class="text-4xl">STRENGTHS</h2>
-          <hr class="border-orange-400 border-2" />
-          <div>
-            <p class="text-wrap leading-8">
-              <span class="text-nowrap border-2 border-gray-500/75 rounded-xl"
-                >Analytical Think</span
-              >&nbsp;&nbsp;&nbsp;&nbsp;
-              <span class="text-nowrap border-2 border-gray-500/75 rounded-xl"
-                >Self-learning</span
-              >&nbsp;&nbsp;&nbsp;&nbsp;
-              <span class="text-nowrap border-2 border-gray-500/75 rounded-xl"
-                >Curiasity & Creativity</span
-              >&nbsp;&nbsp;&nbsp;&nbsp;
-              <span class="text-nowrap border-2 border-gray-500/75 rounded-xl"
-                >Technical Proficiency</span
-              >&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
+          <h2 class="display-5">STRENGTHS</h2>
+          <hr class="border border-warning" />
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge bg-secondary">Analytical Thinking</span>
+            <span class="badge bg-secondary">Self-learning</span>
+            <span class="badge bg-secondary">Curiosity & Creativity</span>
+            <span class="badge bg-secondary">Technical Proficiency</span>
           </div>
         </article>
         <article>
-          <h2 class="text-4xl">SKILLS</h2>
-          <hr class="border-orange-400 border-2" />
-          <ul>
+          <h2 class="display-5">SKILLS</h2>
+          <hr class="border border-warning" />
+          <ul class="list-unstyled">
             <li><i class="fa-brands fa-html5"></i> HTML</li>
             <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
-            <li><i class="fa-brands fa-js"></i> JAVASCRIPT</li>
-            <li class="flex justify-start items-center">
+            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+            <li class="d-flex align-items-center">
               <img
                 src="./assets/adobe-photoshop-logo.png"
-                class="w-[15px] h-[15px]"
+                class="me-2"
+                style="width: 20px; height: 20px;"
                 alt=""
-              />PHOTOSHOP
+              />Photoshop
             </li>
           </ul>
         </article>
         <article>
-          <h2 class="text-4xl">LANGUAGES</h2>
-          <hr class="border-orange-400 border-2" />
-          <table>
+          <h2 class="display-5">LANGUAGES</h2>
+          <hr class="border border-warning" />
+          <table class="table">
             <tr>
-              <th scope="colgroup" class="text-left">TAMIL</th>
-              <td class="flex gap-4">
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="colgroup" class="text-left">ENGLISH</th>
-              <td class="flex gap-4">
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
-              </td>
-            </tr>
-            <tr>
-              <th scope="colgroup" class="text-left">HINDI</th>
-              <td class="flex gap-4">
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-red-900"></div>
-                <div
-                  class="rounded-[50%] w-[20px] h-[20px] bg-red-900 relative overflow-hidden"
-                >
-                  <div
-                    class="rounded-tr-[50%] rounded-br-[50%] w-[10px] h-[20px] absolute top-0 right-0 bg-gray-500"
-                  ></div>
+              <th class="text-start">TAMIL</th>
+              <td>
+                <div class="d-flex gap-1">
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
                 </div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
-                <div class="rounded-[50%] w-[20px] h-[20px] bg-gray-500"></div>
+              </td>
+            </tr>
+            <tr>
+              <th class="text-start">ENGLISH</th>
+              <td>
+                <div class="d-flex gap-1">
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="text-start">HINDI</th>
+              <td>
+                <div class="d-flex gap-1">
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-danger" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-secondary" style="width: 20px; height: 20px;"></div>
+                  <div class="rounded-circle bg-secondary" style="width: 20px; height: 20px;"></div>
+                </div>
               </td>
             </tr>
           </table>
         </article>
         <article>
-          <h2 class="text-4xl">EDUCATION</h2>
-          <hr class="border-orange-400 border-2" />
-
+          <h2 class="display-5">EDUCATION</h2>
+          <hr class="border border-warning" />
           <div>
-            <h2><b>B.SC in MATHEMATICS</b></h2>
-            <p class="text-red-900">
-              <i>Government arts college , coimbatore.</i>
-            </p>
-            <small
-              ><i class="fa-regular fa-calendar"></i> july 2019 - august
+            <h2 class="fs-3 fw-bold">B.Sc in Mathematics</h2>
+            <p class="fst-italic">Government Arts College, Coimbatore.</p>
+            <small class="d-block"
+              ><i class="fa-regular fa-calendar"></i> July 2019 - August
               2022</small
             >
             <p>
-              <b>Project title:</b> Real life applications of eigen values and
-              eigen vectors
+              <b>Project Title:</b> Real Life Applications of Eigenvalues and
+              Eigenvectors
             </p>
           </div>
         </article>
@@ -287,9 +278,8 @@
       src="https://kit.fontawesome.com/64224c8a23.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
-
-<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
